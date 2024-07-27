@@ -1,13 +1,12 @@
-package com.example.componentscan;
+package com.autowired.annotation;
 
-import jdk.jfr.Category;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Employee {
 
-    @Value("Pankaj")
+    @Value("Jon Doe")
     private String name;
 
     @Value("IT")

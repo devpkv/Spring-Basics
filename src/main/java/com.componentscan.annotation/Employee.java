@@ -1,6 +1,5 @@
-package com.example.componentscan;
+package com.componentscan.annotation;
 
-import jdk.jfr.Category;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
